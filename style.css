@@ -1,0 +1,52 @@
+.box-1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(228, 12, 192);
+    flex-grow: 1;
+    flex-shrink: 3;
+
+}
+.box-2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(56, 16, 235);
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+.box-3{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(212, 235, 12);
+    flex-grow: 1;
+    flex-shrink: 3;
+    align-self: flex-end;
+}
+.box-4{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(22, 224, 197);
+    flex-grow: 5.;
+    flex-shrink: 3;
+    align-self: flex-start;
+}
+.box-5{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(241, 24, 24);
+    flex-grow: 3;
+    flex-shrink: 3;
+}
+ h1 {
+    color: aqua;
+    background-color: rgb(76, 0, 255);
+ }
+
+ .container {
+    background-color: rgb(14, 38, 148);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    gap: 25px;
+ }  
